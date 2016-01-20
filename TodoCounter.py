@@ -1,7 +1,7 @@
 import sys
 import re 
 
-if len(sys.argv):
+if len(sys.argv) < 2:
 	print "Vous devez preciser un fichier a analyser"
 	exit()
 
