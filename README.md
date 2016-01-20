@@ -2,7 +2,7 @@
 
 ## Description
 
-Un petit utilistaire qui parcours tout les fichiers d'un répertoire pour en trouver les lignes "TODO" est les afficher en format markdown dans le fichier README de votre projet.
+Un petit utilitaire qui parcourt tout les fichiers d'un répertoire pour en trouver les lignes "TODO" est les afficher en format markdown dans le fichier README de votre projet.
 
 ## Usage
 
