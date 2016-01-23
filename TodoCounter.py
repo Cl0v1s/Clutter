@@ -37,5 +37,6 @@ data = file.read()
 file.close()
 file = open(os.path.join("./","README.md"), "a+")
 for entry in matchs:
-	if entry not in data:
-		file.write("- [ ] "+entry+"\n")
+	testEntry = entry.replace("\\", "/")
+	if testEntry not in data:
+		file.write("- [ ] "+testEntry+"\n")
