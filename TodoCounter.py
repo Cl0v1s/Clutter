@@ -30,7 +30,7 @@ for f in files:
 				print "    Entrée trouvée ligne "+str(u+1)
 				ft = f
 				#Eventuellement remplacer master par branche actuelle
-				ft = "blob/master"+ft.replace(".","", 1)
+				ft = ""+ft.replace(".","", 1)
 				res[i] = "["+f+"]("+ft+") l: "+str(u+1)+" "+res[i]
 				break
 	matchs = matchs + res;
