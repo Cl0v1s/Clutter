@@ -19,6 +19,7 @@ def listFiles(dir):
 listFiles("./")
 
 for f in files:
+	print "Recherche dans "+f
 	file = open(f,"r")
 	data = file.read()
 	res = re.findall("TODO:(.*?)\n", data)
@@ -26,6 +27,7 @@ for f in files:
 	for i  in range(len(res)):
 		for u in range(len(lines)):
 			if res[i] in lines[u]:
+				print "    Entrée trouvée ligne "+str(u+1)
 				res[i] = f+" l: "+str(u+1)+" "+res[i]
 				break
 	matchs = matchs + res;
@@ -35,8 +37,15 @@ for f in files:
 file = open(os.path.join("./","README.md"), "r")
 data = file.read()
 file.close()
-file = open(os.path.join("./","README.md"), "a+")
+file = open(os.path.join("./","README.md"), "w+")
+txt = ""
 for entry in matchs:
+	print "Ecriture de "+entry
 	testEntry = entry.replace("\\", "/")
-	if testEntry not in data:
-		file.write("- [ ] "+testEntry+"\n")
+	txt = txt + "- [ ] "+testEntry+"\n"
+print "Texte à écrire\n"+txt
+txt = "[Clutter]\n"+txt+"[/Clutter]"
+data = re.sub("\[Clutter\]\n*(.*)\n*\[\/Clutter\]", txt, data, flags=re.DOTALL)
+print "Texte final \n"+data
+file.write(data)
+file.close()
