@@ -5,6 +5,13 @@
 Un petit utilitaire qui parcourt tout les fichiers d'un répertoire pour en trouver les lignes "TODO" et les afficher en format markdown dans le fichier README du projet.
 Clutter est prévu pour fonctionner avec **Github**, mais avec quelques modification, il peut fonctionner avec n'importe quelle plateforme graphique de versionnage.
 
+## Exemple
+
+[Clutter]
+[/Clutter]
+
+(Ce projet contient un dossier exemple comprenant des fichiers contenant différents types de commentaires, exécutez simplement clutter directement après l'avoir téléchargé pour le tester, amusez-vous à modifier les fichiers sample pour voir le résultat.)
+
 ## Elements requis
 
 * python 2.7
@@ -12,10 +19,10 @@ Clutter est prévu pour fonctionner avec **Github**, mais avec quelques modifica
 
 ## Usage
 
-Pour utiliser Clutter, placez dans votre fichier README deux balises [Clutter] telles que:
+Pour utiliser Clutter, placez dans votre fichier README deux balises &#91;Clutter&#92; telles que:
 
-    [Clutter]
-    [/Clutter]
+    &#91;Clutter&#92;
+    &#91;/Clutter&#92;
     
 Ensuite, exécutez le script clutter.py à l'aide de la commande 
 
