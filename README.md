@@ -19,10 +19,10 @@ Clutter est prévu pour fonctionner avec **Github**, mais avec quelques modifica
 
 ## Usage
 
-Pour utiliser Clutter, placez dans votre fichier README deux balises &#91;Clutter&#92; telles que:
+Pour utiliser Clutter, placez dans votre fichier README deux balises &#91;Clutter&#93; telles que:
 
-    &#91;Clutter&#92;
-    &#91;/Clutter&#92;
+&#91;Clutter&#93;
+&#91;/Clutter&#93;
     
 Ensuite, exécutez le script clutter.py à l'aide de la commande 
 
