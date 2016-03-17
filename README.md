@@ -14,6 +14,7 @@ Clutter est prévu pour fonctionner avec **Github**, mais avec quelques modifica
 - [ ] [./example/sample3.html](/example/sample3.html) l: 2  Vivre heureux -->
 - [ ] [./example/sample3.html](/example/sample3.html) l: 4 Rendre ton partenaire heureux-->
 - [ ] [./example/sample3.html](/example/sample3.html) l: 6  Oeuvrer pour le bien de l'humanité-->  
+
 [/Clutter]
 
 (Ce projet contient un dossier exemple comprenant des fichiers contenant différents types de commentaires, exécutez simplement clutter directement après l'avoir téléchargé pour le tester, amusez-vous à modifier les fichiers sample pour voir le résultat.)
