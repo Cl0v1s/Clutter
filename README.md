@@ -3,7 +3,7 @@
 ## Description
 
 Un petit utilitaire qui parcourt tout les fichiers d'un répertoire pour en trouver les lignes "TODO" et les afficher en format markdown dans le fichier README du projet.
-Clutter est prévu pour fonctionner avec **Github**, mais avec quelques modification, il peut fonctionner avec n'importe quelle plateforme graphique de versionnage.
+Clutter est prévu pour fonctionner avec **Github**, mais avec quelques modifications, il peut fonctionner avec n'importe quelle plateforme graphique de versionnage.
 
 ## Exemple
 
